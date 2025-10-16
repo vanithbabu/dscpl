@@ -26,7 +26,7 @@
             <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/facebook.svg" alt="Facebook">
           </a>
           <a href="#" class="flex items-center justify-center ">
-            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/instagram.svg" alt="Instagram">
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/instagram-1.svg" alt="Instagram">
           </a>
           <a href="#" class=" flex items-center justify-center ">
             <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/linkedin.svg" alt="LinkedIn">

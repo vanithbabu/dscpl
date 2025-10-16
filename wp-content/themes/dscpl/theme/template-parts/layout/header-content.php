@@ -59,21 +59,21 @@
 
           <div id="desktop-solutions-dropdown"
             class="desktop-solutions-dropdown absolute hidden right-0 z-20 mt-1 w-64 bg-white shadow-xl rounded-lg border border-gray-100 dropdown-triangle">
-            <a href="./DDS.html"
+            <a href="http://localhost:8888/dscpl/dds-enterprise-cloud-platform/"
               class="block px-4 py-3 text-sm text-primary-dark hover:bg-gray-50 font-semibold border-b border-[#c0b9b9]">
               DDS Enterprise Cloud Platform
             </a>
-            <a href="./SaaS.html"
+            <a href="http://localhost:8888/dscpl/dds-saas-platform-for-smes/"
               class="block px-4 py-3 text-sm text-primary-dark hover:bg-gray-50 font-semibold border-b border-[#c0b9b9]">
               DDS SaaS Platform for SMEs
             </a>
-            <a href="./retail.html" class="block px-4 py-3 text-sm text-primary-dark hover:bg-gray-50 font-semibold">
+            <a href="http://localhost:8888/dscpl/dds-retail/" class="block px-4 py-3 text-sm text-primary-dark hover:bg-gray-50 font-semibold">
               DDS Retail
             </a>
           </div>
         </div>
 
-        <a href="#" class="hover:text-primary-blue">Success Stories</a>
+        <a href="http://localhost:8888/dscpl/success-stories/" class="hover:text-primary-blue">Success Stories</a>
         <a href="#" class="hover:text-primary-blue">Careers</a>
         <a href="#" class="hover:text-primary-blue">Resources</a>
         <div class="max-[1094px]:hidden">
