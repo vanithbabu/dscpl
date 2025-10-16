@@ -11,20 +11,18 @@ get_header();
 ?>
 
 	<section id="primary">
-		<main id="main">
+	   <div class="bg-[#EAFFFE] w-full overflow-hidden">
+<div class="flex  flex-col min-h-screen items-center justify-center p-8 sm:p-12  text-center  w-full mx-4">
+        <h1
+            class="text-7xl sm:text-8xl font-sans font-extrabold bg-gradient-to-r from-[#44B1C5] to-[#281D58] bg-clip-text text-transparent mb-4">
+            404
+        </h1>
 
-			<div>
-				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Page Not Found', 'dscpl' ); ?></h1>
-				</header><!-- .page-header -->
-
-				<div <?php dscpl_content_class( 'page-content' ); ?>>
-					<p><?php esc_html_e( 'This page could not be found. It might have been removed or renamed, or it may never have existed.', 'dscpl' ); ?></p>
-					<?php get_search_form(); ?>
-				</div><!-- .page-content -->
-			</div>
-
-		</main><!-- #main -->
+        <p class="text-gray-500 text-lg mb-8">
+            Oops! The page you're looking for does not exist.
+        </p>
+        </div>
+    </div>
 	</section><!-- #primary -->
 
 <?php
