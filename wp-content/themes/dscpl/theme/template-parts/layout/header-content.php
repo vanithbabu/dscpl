@@ -74,7 +74,7 @@
         </div>
 
         <a href="http://localhost:8888/dscpl/success-stories/" class="hover:text-primary-blue">Success Stories</a>
-        <a href="#" class="hover:text-primary-blue">Careers</a>
+        <a href="http://localhost:8888/dscpl/career/" class="hover:text-primary-blue">Careers</a>
         <a href="#" class="hover:text-primary-blue">Resources</a>
         <div class="max-[1094px]:hidden">
           <a href="http://localhost:8888/dscpl/contact-us/"
@@ -125,15 +125,15 @@
           </svg>
         </button>
         <div id="mobile-solutions-dropdown" class="hidden pl-4 pt-1 space-y-2 text-sm text-gray-600">
-          <a href="./DDS.html" class="block hover:text-gray-800">DDS Enterprise Cloud Platform </a>
-          <a href="./SaaS.html" class="block hover:text-gray-800">DDS SaaS Platform for SMEs</a>
+          <a href="http://localhost:8888/dscpl/dds-enterprise-cloud-platform/" class="block hover:text-gray-800">DDS Enterprise Cloud Platform </a>
+          <a href="http://localhost:8888/dscpl/dds-saas-platform-for-smes/" class="block hover:text-gray-800">DDS SaaS Platform for SMEs</a>
           <a href="./retail.html" class="block hover:text-gray-800">DDS Retail</a>
         </div>
       </div>
 
-      <a href="#" class="block hover:text-primary-blue">Success Stories</a>
-      <a href="#" class="block hover:text-primary-blue">Careers</a>
-      <a href="#" class="block hover:text-primary-blue">Resources</a>
+      <a href="http://localhost:8888/dscpl/success-stories/" class="block hover:text-primary-blue">Success Stories</a>
+      <a href="http://localhost:8888/dscpl/career/" class="block hover:text-primary-blue">Careers</a>
+      <a href="http://localhost:8888/dscpl/dds-retail/" class="block hover:text-primary-blue">Resources</a>
       <a href="http://localhost:8888/dscpl/contact-us/" class="block bg-primary-navy text-white px-4 py-2 rounded-md text-center">Contact Us</a>
     </div>
 

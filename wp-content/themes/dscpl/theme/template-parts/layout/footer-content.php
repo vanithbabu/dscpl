@@ -79,8 +79,8 @@
     <div class="border-t-2 border-dashed border-white-600 mt-8 py-4 mx-6 text-center text-white-400 text-sm">
       <p>
         Copyright &copy; 2025 Digital Distribution Solutions |
-        <a href="#" class="underline hover:text-white">Terms and Conditions</a> |
-        <a href="#" class="underline hover:text-white">Privacy Policy</a>
+        <a href="http://localhost:8888/dscpl/terms-and-conditions/" class="underline hover:text-white">Terms and Conditions</a> |
+        <a href="http://localhost:8888/dscpl/privacy-policy/" class="underline hover:text-white">Privacy Policy</a>
       </p>
     </div>
 
