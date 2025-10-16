@@ -37,18 +37,18 @@
       <div>
         <h3 class="text-white font-semibold mb-4">Solutions</h3>
         <ul class="space-y-2 text-gray-300 text-sm">
-          <li><a href="#" class="hover:text-white">DDS Cloud for Large Enterprises</a></li>
-          <li><a href="#" class="hover:text-white">DDS SaaS for Medium Enterprises</a></li>
-          <li><a href="#" class="hover:text-white">DDS Retail</a></li>
+          <li><a href="http://localhost:8888/dscpl/dds-enterprise-cloud-platform/" class="hover:text-white">DDS Cloud for Large Enterprises</a></li>
+          <li><a href="http://localhost:8888/dscpl/dds-saas-platform-for-smes/" class="hover:text-white">DDS SaaS for Medium Enterprises</a></li>
+          <li><a href="http://localhost:8888/dscpl/dds-retail/" class="hover:text-white">DDS Retail</a></li>
         </ul>
       </div>
 
       <div>
         <h3 class="text-white font-semibold mb-4">Company</h3>
         <ul class="space-y-2 text-gray-300 text-sm">
-          <li><a href="#" class="hover:text-white">About</a></li>
-          <li><a href="#" class="hover:text-white">Contact us</a></li>
-          <li><a href="#" class="hover:text-white">Careers</a></li>
+          <li><a href="<?php echo site_url(); ?>/about-us" class="hover:text-white">About</a></li>
+          <li><a href="http://localhost:8888/dscpl/contact-us/" class="hover:text-white">Contact us</a></li>
+          <li><a href="http://localhost:8888/dscpl/career/" class="hover:text-white">Careers</a></li>
           <li><a href="#" class="hover:text-white">Culture</a></li>
           <li><a href="http://localhost:8888/dscpl/blog" class="hover:text-white">Blog</a></li>
         </ul>

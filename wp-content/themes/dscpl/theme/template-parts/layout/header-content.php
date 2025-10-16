@@ -107,7 +107,7 @@
           </svg>
         </button>
         <div id="mobile-about-dropdown" class="hidden pl-4 pt-1 space-y-2 text-sm text-gray-600">
-          <a href="#" class="block hover:text-gray-800">About us</a>
+          <a href="<?php echo site_url(); ?>/about-us" class="block hover:text-gray-800">About us</a>
           <a href="#" class="block hover:text-gray-800">Core Values</a>
           <a href="#" class="block hover:text-gray-800">Partners</a>
         </div>
