@@ -18,16 +18,16 @@ get_header();
 
     <main>
         <section class="relative min-h-[500px] flex items-center bg-white  overflow-hidden">
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/blueEllipse.svg" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/blueEllipse.svg" alt="background image"
                 class="absolute bottom-0 left-[20%] w-[800px]" />
 
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/bluecube.svg" alt="background image" class="absolute bottom-[30%] left-[30%]" />
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Linear.svg" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/bluecube.svg" alt="background image" class="absolute bottom-[30%] left-[30%]" />
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Linear.svg" alt="background image"
                 class="absolute bottom-[14%] right-[-3%] hidden lg:block" />
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Linear.svg" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Linear.svg" alt="background image"
                 class="absolute top-[15%] right-[-40%] hidden lg:block" />
 
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/bluecube.svg" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/bluecube.svg" alt="background image"
                 class="absolute top-0 right-[15%] hidden md:block" />
 
             <div class="max-w-7xl mx-auto px-4 relative z-10 w-full">
@@ -61,9 +61,9 @@ get_header();
                             </a>
                         </div>
                         <div class="flex flex-row space-x-2 overflow-hidden">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/africanManager.png" alt="Girl">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/curlyhair.png" alt="Group" class="mt-8">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/farm.png" alt="Girl">
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/africanManager.png" alt="Girl">
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/curlyhair.png" alt="Group" class="mt-8">
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/farm.png" alt="Girl">
                         </div>
                         <div class="mt-12">
                             <a href="#"
@@ -88,10 +88,10 @@ get_header();
                         <div class="bg-white rounded-lg border border-gray-200 overflow-hidden h-full flex flex-col">
                             <a href="#"
                                 class="transform hover:scale-[1.01] transition duration-300  inline-flex items-center justify-center px-2 py-2 text-base font-medium rounded-lg text-white   bg-primary-blue  transition duration-300 shadow-lg w-32 m-6">
-                                E-BOOKS <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/book.svg" alt="arrow" class="mt-1 ml-2">
+                                E-BOOKS <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/book.svg" alt="arrow" class="mt-1 ml-2">
                             </a>
                             <div class="px-6 pt-4">
-                                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/CarrerAD-scaled.jpg" alt="Team collaboration"
+                                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/CarrerAD-scaled.jpg" alt="Team collaboration"
                                     class="w-full h-64 md:h-80 object-cover">
                             </div>
 
@@ -108,7 +108,7 @@ get_header();
                                 <div
                                     class="flex   flex-col sm:flex-row  items-center justify-between pt-4 border-t border-gray-200">
                                     <div class="flex items-center space-x-2">
-                                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Circleprofile.svg" alt="Team collaboration" />
+                                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Circleprofile.svg" alt="Team collaboration" />
                                         <span class="text-sm text-[#191B44] font-bold">Anna Maria Lopez</span>
                                     </div>
                                     <div class="flex items-center text-sm space-x-3 font-bold text-[#191B44]">
@@ -167,7 +167,7 @@ get_header();
                         <div class="bg-[#181C44] rounded-lg shadow-md p-6 text-white relative overflow-hidden">
                             <div class="relative z-10">
                                 <div class="flex items-center justify-center mb-4">
-                                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/whiteLogo.svg" alt="DSCPL Logo" class="h-10 w-auto">
+                                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/whiteLogo.svg" alt="DSCPL Logo" class="h-10 w-auto">
                                 </div>
                                 <div class="flex items-center mb-4">
                                     <div>
@@ -252,7 +252,7 @@ get_header();
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div>
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/card3.png" alt="Warehouse" class="w-full h-48 object-cover">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/card3.png" alt="Warehouse" class="w-full h-48 object-cover">
                     </div>
                     <div class="p-5">
                         <div class="text-xs text-gray-500 mb-2">Anna Maria Lopez • </div>
@@ -284,7 +284,7 @@ get_header();
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div>
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/card2.png" alt="Distribution" class="w-full h-48 object-cover">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/card2.png" alt="Distribution" class="w-full h-48 object-cover">
                     </div>
                     <div class="p-5">
                         <div class="text-xs text-gray-500 mb-2">Anna Maria Lopez • </div>
@@ -318,7 +318,7 @@ get_header();
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div>
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/card1.png" alt="Retail" class="w-full h-48 object-cover">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/card1.png" alt="Retail" class="w-full h-48 object-cover">
                     </div>
                     <div class="p-5">
                         <div class="text-xs text-gray-500 mb-2">Anna Maria Lopez • </div>
@@ -391,16 +391,16 @@ get_header();
         </section>
         <section class="py-4 md:py-32 px-4 bg-[#F4FFFE] relative">
             <div class="max-w-7xl mx-auto">
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/blueCircle.svg" alt="background image" class="absolute left-[8%]" />
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/blueCircle.svg" alt="background image"
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/blueCircle.svg" alt="background image" class="absolute left-[8%]" />
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/blueCircle.svg" alt="background image"
                     class="absolute right-[1%]  hidden lg:block" />
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/teleicon.svg" alt="background image"
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/teleicon.svg" alt="background image"
                     class="absolute left-[40%] top-[5%] hidden md:block" />
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/teleicon.svg" alt="background image"
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/teleicon.svg" alt="background image"
                     class="absolute left-[35%] bottom-[0%] hidden md:block" />
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/teleicon.svg" alt="background image"
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/teleicon.svg" alt="background image"
                     class="absolute left-[3%] bottom-[35%] hidden md:block" />
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/teleicon.svg" alt="background image"
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/teleicon.svg" alt="background image"
                     class="absolute right-[5%] bottom-[5%] hidden md:block" />
                 <div class="bg-[#448F9D] rounded-2xl overflow-hidden shadow-lg mb-12 hidden lg:block">
                     <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-0">
@@ -424,7 +424,7 @@ get_header();
                             </div>
                         </div>
                         <div>
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/brawnhairgirl.png" alt="Person using mobile device"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/brawnhairgirl.png" alt="Person using mobile device"
                                 class="absolute bottom-[42%] w-20 sm:w-40 md:w-80 lg:w-auto" />
                         </div>
                     </div>
@@ -452,7 +452,7 @@ get_header();
                         </div>
 
                         <div class="flex justify-center items-center relative p-6">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/brawnhairgirl.png" alt="Person using mobile device"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/brawnhairgirl.png" alt="Person using mobile device"
                                 class="w-40 sm:w-60 md:w-80 lg:w-auto h-auto object-contain" />
                         </div>
                     </div>

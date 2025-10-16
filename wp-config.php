@@ -26,7 +26,7 @@ define( 'DB_NAME', 'dscpl' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'DigiOcean2025!' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -39,8 +39,8 @@ define( 'DB_COLLATE', '' );
 
 define('FS_METHOD', 'direct');
 
-// define('WP_HOME', 'http://159.203.159.79');
-// define('WP_SITEURL', 'http://159.203.159.79');
+define('WP_HOME', 'http://159.203.159.79');
+define('WP_SITEURL', 'http://159.203.159.79');
 
 /**#@+
  * Authentication unique keys and salts.
