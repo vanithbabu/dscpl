@@ -77,7 +77,7 @@
         <a href="#" class="hover:text-primary-blue">Careers</a>
         <a href="#" class="hover:text-primary-blue">Resources</a>
         <div class="max-[1094px]:hidden">
-          <a href="#"
+          <a href="http://localhost:8888/dscpl/contact-us/"
             class="bg-primary-navy text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary-teal transition">
             Contact Us
           </a>
@@ -134,7 +134,7 @@
       <a href="#" class="block hover:text-primary-blue">Success Stories</a>
       <a href="#" class="block hover:text-primary-blue">Careers</a>
       <a href="#" class="block hover:text-primary-blue">Resources</a>
-      <a href="#" class="block bg-primary-navy text-white px-4 py-2 rounded-md text-center">Contact Us</a>
+      <a href="http://localhost:8888/dscpl/contact-us/" class="block bg-primary-navy text-white px-4 py-2 rounded-md text-center">Contact Us</a>
     </div>
 
   </header>
