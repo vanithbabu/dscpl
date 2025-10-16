@@ -50,7 +50,7 @@
           <li><a href="#" class="hover:text-white">Contact us</a></li>
           <li><a href="#" class="hover:text-white">Careers</a></li>
           <li><a href="#" class="hover:text-white">Culture</a></li>
-          <li><a href="#" class="hover:text-white">Blog</a></li>
+          <li><a href="http://localhost:8888/dscpl/blog" class="hover:text-white">Blog</a></li>
         </ul>
       </div>
 
