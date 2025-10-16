@@ -18,9 +18,9 @@ get_header();
         style="background: linear-gradient(to right, #5EBBCC 0%, #3A9DB2 50%, #235A66 100%);">
 
         <!-- Background arrows -->
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Leftcircle.png" alt="Left Arrow"
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Leftcircle.png" alt="Left Arrow"
             class="hidden md:block absolute left-10 opacity-80" />
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Rightcircle.png" alt="Right Arrow"
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Rightcircle.png" alt="Right Arrow"
             class="hidden md:block absolute right-10 opacity-80" />
 
         <!-- Content -->
@@ -49,7 +49,7 @@ get_header();
                     </p>
                     <div class="flex items-center justify-center space-x-3">
                         <div class="w-9 h-9 flex items-center justify-center bg-cyan-600 text-white rounded-full">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/callicon.svg" alt="Phone Icon" class="w-5 h-5" />
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/callicon.svg" alt="Phone Icon" class="w-5 h-5" />
                         </div>
                         <div class="text-left">
                             <p class="text-gray-700 text-sm">Phone:</p>
@@ -89,7 +89,7 @@ get_header();
                     <div class="mt-8 flex items-start space-x-4">
                         <div
                             class="mt-1 shrink-0 w-9 h-9 rounded-full text-cyan-700 flex items-center justify-center overflow-hidden">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/map.svg" alt="Address Icon" class="w-6 h-6 object-contain" />
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/map.svg" alt="Address Icon" class="w-6 h-6 object-contain" />
                         </div>
                         <div>
                             <p class="text-xs font-semibold tracking-wider text-slate-500">ADDRESS</p>
@@ -100,7 +100,7 @@ get_header();
                     <!-- Phone -->
                     <div class="mt-6 flex items-start space-x-4">
                         <div class="mt-1 shrink-0 w-9 h-9 rounded-full text-cyan-700 flex items-center justify-center">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/call-icon.svg" alt="Phone Icon" class="w-6 h-6 object-contain" />
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/call-icon.svg" alt="Phone Icon" class="w-6 h-6 object-contain" />
                         </div>
                         <div>
                             <p class="text-xs font-semibold tracking-wider text-slate-500">PHONE</p>
@@ -112,7 +112,7 @@ get_header();
                     <!-- Email -->
                     <div class="mt-6 flex items-start space-x-4">
                         <div class="mt-1 shrink-0 w-9 h-9 rounded-full text-cyan-700 flex items-center justify-center">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/email-icon.svg" alt="Email Icon" class="w-6 h-6 object-contain" />
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/email-icon.svg" alt="Email Icon" class="w-6 h-6 object-contain" />
                         </div>
                         <div>
                             <p class="text-xs font-semibold tracking-wider text-slate-500">EMAIL</p>
@@ -126,15 +126,15 @@ get_header();
                         <div class="flex space-x-4">
                             <a href="#" aria-label="Twitter"
                                 class="w-9 h-9 flex items-center justify-center rounded-full border-slate-200 hover:bg-cyan-50 transition">
-                                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Twitter-1.svg" alt="Twitter" class="w-5 h-5">
+                                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Twitter-1.svg" alt="Twitter" class="w-5 h-5">
                             </a>
                             <a href="#" aria-label="Facebook"
                                 class="w-9 h-9 flex items-center justify-center rounded-full border-slate-200 hover:bg-cyan-50 transition">
-                                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Facebook-1.svg" alt="Facebook" class="w-5 h-5">
+                                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Facebook-1.svg" alt="Facebook" class="w-5 h-5">
                             </a>
                             <a href="#" aria-label="Instagram"
                                 class="w-9 h-9 flex items-center justify-center rounded-ful border-slate-200 hover:bg-cyan-50 transition">
-                                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Instagram-2.svg" alt="Instagram" class="w-5 h-5">
+                                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Instagram-2.svg" alt="Instagram" class="w-5 h-5">
                             </a>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ get_header();
             <!-- Email -->
             <div class="flex items-center gap-3">
                 <div class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-lg">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Image.png" alt="email">
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Image.png" alt="email">
                 </div>
                 <div>
                     <p class="text-gray-500 text-sm">Email:</p>
@@ -182,7 +182,7 @@ get_header();
             <!-- Phone -->
             <div class="flex items-center gap-3">
                 <div class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-lg">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Image.png" alt="phone">
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Image.png" alt="phone">
                 </div>
                 <div>
                     <p class="text-gray-500 text-sm">Phone:</p>
@@ -195,19 +195,19 @@ get_header();
                 <p class="text-gray-700 font-bold mb-2">Reach out to us on:</p>
                 <div class="flex gap-3">
                     <a href="#" class="w-9 h-9 flex items-center justify-center hover:bg-blue-500 transition">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Facebook-1.svg" alt="facebook" class="w-5 h-5">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Facebook-1.svg" alt="facebook" class="w-5 h-5">
                     </a>
                     <a href="#" class="w-9 h-9 flex items-center justify-center  hover:bg-sky-400 transition">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Twitter-1.svg" alt="twitter" class="w-5 h-5">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Twitter-1.svg" alt="twitter" class="w-5 h-5">
                     </a>
                     <a href="#" class="w-9 h-9 flex items-center justify-center hover:bg-blue-600 transition">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Instagram-2.svg" alt="linkedin" class="w-5 h-5">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Instagram-2.svg" alt="linkedin" class="w-5 h-5">
                     </a>
                     <a href="#" class="w-9 h-9 flex items-center justify-center  hover:bg-red-600 transition">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/LinkedIn-1.svg" alt="youtube" class="w-5 h-5">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/LinkedIn-1.svg" alt="youtube" class="w-5 h-5">
                     </a>
                     <a href="#" class="w-9 h-9 flex items-center justify-center hover:bg-pink-500 transition">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/YouTube.svg" alt="instagram" class="w-5 h-5">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/YouTube.svg" alt="instagram" class="w-5 h-5">
                     </a>
                 </div>
             </div>
@@ -217,7 +217,7 @@ get_header();
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             <!-- Left: Image -->
             <div>
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/high-angle-woman-talking-phone-1.png" alt="Contact"
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/high-angle-woman-talking-phone-1.png" alt="Contact"
                     class="rounded-lg shadow-md w-full">
             </div>
 
@@ -256,7 +256,7 @@ get_header();
                 <button class="flex items-center gap-2 text-white px-6 py-2 rounded-lg shadow 
     bg-gradient-to-r from-[#6CD3E7] to-[#235A66] hover:opacity-90 transition">
                     Get started
-                     <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="w-4 h-4">
+                     <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="w-4 h-4">
                 </button>
             </div>
 

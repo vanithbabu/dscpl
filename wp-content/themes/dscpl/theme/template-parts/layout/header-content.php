@@ -59,25 +59,25 @@
 
           <div id="desktop-solutions-dropdown"
             class="desktop-solutions-dropdown absolute hidden right-0 z-20 mt-1 w-64 bg-white shadow-xl rounded-lg border border-gray-100 dropdown-triangle">
-            <a href="http://localhost:8888/dscpl/dds-enterprise-cloud-platform/"
+            <a href="<?php echo site_url(); ?>/dds-enterprise-cloud-platform/"
               class="block px-4 py-3 text-sm text-primary-dark hover:bg-gray-50 font-semibold border-b border-[#c0b9b9]">
               DDS Enterprise Cloud Platform
             </a>
-            <a href="http://localhost:8888/dscpl/dds-saas-platform-for-smes/"
+            <a href="<?php echo site_url(); ?>/dds-saas-platform-for-smes/"
               class="block px-4 py-3 text-sm text-primary-dark hover:bg-gray-50 font-semibold border-b border-[#c0b9b9]">
               DDS SaaS Platform for SMEs
             </a>
-            <a href="http://localhost:8888/dscpl/dds-retail/" class="block px-4 py-3 text-sm text-primary-dark hover:bg-gray-50 font-semibold">
+            <a href="<?php echo site_url(); ?>/dds-retail/" class="block px-4 py-3 text-sm text-primary-dark hover:bg-gray-50 font-semibold">
               DDS Retail
             </a>
           </div>
         </div>
 
-        <a href="http://localhost:8888/dscpl/success-stories/" class="hover:text-primary-blue">Success Stories</a>
-        <a href="http://localhost:8888/dscpl/career/" class="hover:text-primary-blue">Careers</a>
-        <a href="#" class="hover:text-primary-blue">Resources</a>
+        <a href="<?php echo site_url(); ?>/success-stories/" class="hover:text-primary-blue">Success Stories</a>
+        <a href="<?php echo site_url(); ?>/career/" class="hover:text-primary-blue">Careers</a>
+        <a href="<?php echo site_url(); ?>/resources/" class="hover:text-primary-blue">Resources</a>
         <div class="max-[1094px]:hidden">
-          <a href="http://localhost:8888/dscpl/contact-us/"
+          <a href="<?php echo site_url(); ?>/contact-us/"
             class="bg-primary-navy text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary-teal transition">
             Contact Us
           </a>
@@ -125,16 +125,16 @@
           </svg>
         </button>
         <div id="mobile-solutions-dropdown" class="hidden pl-4 pt-1 space-y-2 text-sm text-gray-600">
-          <a href="http://localhost:8888/dscpl/dds-enterprise-cloud-platform/" class="block hover:text-gray-800">DDS Enterprise Cloud Platform </a>
-          <a href="http://localhost:8888/dscpl/dds-saas-platform-for-smes/" class="block hover:text-gray-800">DDS SaaS Platform for SMEs</a>
+          <a href="<?php echo site_url(); ?>/dds-enterprise-cloud-platform/" class="block hover:text-gray-800">DDS Enterprise Cloud Platform </a>
+          <a href="<?php echo site_url(); ?>/dds-saas-platform-for-smes/" class="block hover:text-gray-800">DDS SaaS Platform for SMEs</a>
           <a href="./retail.html" class="block hover:text-gray-800">DDS Retail</a>
         </div>
       </div>
 
-      <a href="http://localhost:8888/dscpl/success-stories/" class="block hover:text-primary-blue">Success Stories</a>
-      <a href="http://localhost:8888/dscpl/career/" class="block hover:text-primary-blue">Careers</a>
-      <a href="http://localhost:8888/dscpl/dds-retail/" class="block hover:text-primary-blue">Resources</a>
-      <a href="http://localhost:8888/dscpl/contact-us/" class="block bg-primary-navy text-white px-4 py-2 rounded-md text-center">Contact Us</a>
+      <a href="<?php echo site_url(); ?>/success-stories/" class="block hover:text-primary-blue">Success Stories</a>
+      <a href="<?php echo site_url(); ?>/career/" class="block hover:text-primary-blue">Careers</a>
+      <a href="<?php echo site_url(); ?>/resources/" class="block hover:text-primary-blue">Resources</a>
+      <a href="<?php echo site_url(); ?>/contact-us/" class="block bg-primary-navy text-white px-4 py-2 rounded-md text-center">Contact Us</a>
     </div>
 
   </header>

@@ -16,13 +16,13 @@
 get_header();
 ?>
  <section class="relative bg-gradient-to-br from-[#4497B4] to-[#71C5E1] overflow-hidden">
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/cloud.svg" alt="arrow" class="absolute top-[22%] right-44 hidden lg:block">
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/cloud.svg" alt="arrow" class="absolute top-[28%] right-[36%] hidden lg:block w-20">
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/cloud.svg" alt="arrow" class="absolute bottom-20 right-[38%] hidden lg:block">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/cloud.svg" alt="arrow" class="absolute top-[22%] right-44 hidden lg:block">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/cloud.svg" alt="arrow" class="absolute top-[28%] right-[36%] hidden lg:block w-20">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/cloud.svg" alt="arrow" class="absolute bottom-20 right-[38%] hidden lg:block">
 
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/wheel.svg" alt="arrow" class="absolute bottom-0 left-[20%] hidden lg:block">
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/wheel.svg" alt="arrow" class="absolute top-0 left-[42%] hidden lg:block">
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/wheel.svg" alt="arrow" class="absolute bottom-8 right-[10%] hidden lg:block">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/wheel.svg" alt="arrow" class="absolute bottom-0 left-[20%] hidden lg:block">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/wheel.svg" alt="arrow" class="absolute top-0 left-[42%] hidden lg:block">
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/wheel.svg" alt="arrow" class="absolute bottom-8 right-[10%] hidden lg:block">
 
         <div class="max-w-7xl mx-auto px-4 py-16 lg:py-32">
             <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center  pt-0 lg:pt-20 ">
@@ -37,12 +37,12 @@ get_header();
                     </p>
                     <a href="#"
                         class="transform hover:scale-[1.01] transition duration-300  inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
-                        Request a Demo <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
+                        Request a Demo <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
                     </a>
                 </div>
 
                 <div class="relative z-10 flex justify-center lg:justify-end mt-6 ml-0 lg:ml-32 ">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/laptop.png" alt="logo">
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/laptop.png" alt="logo">
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@ get_header();
                 <div
                     class="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow duration-300 border border-[#D9D9D9]">
                     <div class="flex items-start space-x-4 ">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/roundicon.svg" alt="arrow" class="py-4">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/roundicon.svg" alt="arrow" class="py-4">
 
                         <div class="flex-1">
                             <h3 class="text-lg font-semibold text-[#2E3A65] mb-2">28% Lower Operational Costs</h3>
@@ -79,7 +79,7 @@ get_header();
                 <div
                     class="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow duration-300 border border-[#D9D9D9]">
                     <div class="flex items-start space-x-4">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/analytics.svg" alt="arrow" class="py-4">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/analytics.svg" alt="arrow" class="py-4">
 
                         <div class="flex-1">
                             <h3 class="text-lg font-semibold text-[#2E3A65] mb-2">Real-Time Analytics</h3>
@@ -93,7 +93,7 @@ get_header();
                 <div
                     class="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow duration-300 border border-[#D9D9D9]">
                     <div class="flex items-start space-x-4">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/frameicon.svg" alt="arrow" class="py-4">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/frameicon.svg" alt="arrow" class="py-4">
 
                         <div class="flex-1">
                             <h3 class="text-lg font-semibold text-[#2E3A65] mb-2">Effortless Scalability</h3>
@@ -121,7 +121,7 @@ get_header();
                 <div
                     class="bg-white rounded-xl p-6 sm:p-8 shadow-md transition-shadow duration-300 flex flex-col items-center text-center">
                     <div class="mb-6">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/real-time.png" alt="Analytics Dashboard">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/real-time.png" alt="Analytics Dashboard">
                     </div>
                     <h3 class="text-lg sm:text-xl font-bold mb-3">
                         Real-Time Analytics & Dashboards
@@ -135,7 +135,7 @@ get_header();
                 <div
                     class="bg-white rounded-xl p-6 sm:p-8 shadow-md transition-shadow duration-300 flex flex-col items-center text-center">
                     <div class="mb-6">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/erp-payment.png" alt="Payment Integration">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/erp-payment.png" alt="Payment Integration">
                     </div>
                     <h3 class="text-lg sm:text-xl font-bold  mb-3">
                         Seamless ERP & Payment Integrations
@@ -149,7 +149,7 @@ get_header();
                 <div
                     class="bg-white rounded-xl p-6 sm:p-8 shadow-md transition-shadow duration-300 flex flex-col items-center text-center">
                     <div class="mb-6">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/centralized-inventory-management.png" alt="Inventory Management">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/centralized-inventory-management.png" alt="Inventory Management">
                     </div>
                     <h3 class="text-lg sm:text-xl font-bold  mb-3">
                         Centralized Inventory Management
@@ -163,7 +163,7 @@ get_header();
                 <div
                     class="bg-white rounded-xl p-6 sm:p-8 shadow-md transition-shadow duration-300 flex flex-col items-center text-center">
                     <div class="mb-6">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/mobile_web.png" alt="Mobile Access">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/mobile_web.png" alt="Mobile Access">
                     </div>
                     <h3 class="text-lg sm:text-xl font-bold  mb-3">
                         Mobile + Web Access for Field Teams
@@ -177,7 +177,7 @@ get_header();
                 <div
                     class="bg-white rounded-xl p-6 sm:p-8 shadow-md transition-shadow duration-300 flex flex-col items-center text-center">
                     <div class="mb-6">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/AutomatedWorkflows.png" alt="Automated Workflows">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/AutomatedWorkflows.png" alt="Automated Workflows">
                     </div>
                     <h3 class="text-lg sm:text-xl font-bold  mb-3">
                         Automated Workflows
@@ -191,7 +191,7 @@ get_header();
                 <div
                     class="bg-white rounded-xl p-6 sm:p-8 shadow-md transition-shadow duration-300 flex flex-col items-center text-center">
                     <div class="mb-6">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Role-Based.png" alt="Access Control">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Role-Based.png" alt="Access Control">
                     </div>
                     <h3 class="text-lg sm:text-xl font-bold mb-3">
                         Role-Based Access & Controls
@@ -218,12 +218,12 @@ get_header();
                     </p>
                     <a href="#"
                         class="transform hover:scale-[1.01] transition duration-300 inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] shadow-lg">
-                        Join Us <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
+                        Join Us <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
                     </a>
                 </div>
 
                 <div class=" lg:block lg:col-span-2">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/dashboard.png" alt="arrow" class="mt-1 ml-2">
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/dashboard.png" alt="arrow" class="mt-1 ml-2">
                 </div>
 
             </div>

@@ -25,7 +25,7 @@ get_header();
                     Automating FMCG Distribution <br />for a Seamless Supply Chain
                 </p>
 
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/leftlines.svg" alt="Left Line" class="hidden lg:block absolute bottom-[-90%] right-[47%]
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/leftlines.svg" alt="Left Line" class="hidden lg:block absolute bottom-[-90%] right-[47%]
          translate-x-[calc(-1*var(--lx))] translate-y-[var(--ly)]
          w-[clamp(320px,24vw,520px)]
          origin-bottom-left [scale:2.30]
@@ -38,10 +38,10 @@ get_header();
             <div class="relative">
                 <!-- Tight wrapper: becomes the anchor box for lines -->
                 <div class="relative mx-auto w-full max-w-2xl">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/worldmap.png" alt="World Map with Devices"
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/worldmap.png" alt="World Map with Devices"
                         class="block w-full h-auto mb-9" />
 
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/rightlines.svg" alt="Right Line" class="hidden lg:block absolute
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/rightlines.svg" alt="Right Line" class="hidden lg:block absolute
          top-[-30%] right-[-18%]
          -translate-x-1/2 -translate-y-1/2
          translate-x-[var(--rx)] translate-y-[var(--ry)]
@@ -66,14 +66,14 @@ get_header();
             <!-- Left Content -->
             <div>
                 <h3 class="text-xl md:text-2xl font-bold text-gray-900 flex items-center gap-2">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/our-story.svg" alt="Our story icon" class="h-5  md:h-5 align-middle">
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/our-story.svg" alt="Our story icon" class="h-5  md:h-5 align-middle">
                     <span class="text-black">OUR STORY</span>
                 </h3>
 
 
                 <ul class="mt-6 space-y-5 text-gray-700 leading-relaxed">
                     <li class="flex items-start">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/selection.svg" alt="Selection" class="mt-2 shrink-0" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/selection.svg" alt="Selection" class="mt-2 shrink-0" />
                         <div class="ml-2">
                             <span class="font-semibold text-teal-700">Digital Supply Chain Platform Limited
                                 is one of the leading technology and software automation companies serving clients in
@@ -83,7 +83,7 @@ get_header();
                     </li>
 
                     <li class="flex items-start">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/selection.svg" alt="Selection" class="mt-2 shrink-0" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/selection.svg" alt="Selection" class="mt-2 shrink-0" />
                         <div class="ml-2">
                             We are pioneers in the integration of technology in distribution enabling our customers to
                             deliver exceptional value. We are trusted partners in the journey of digital transformation
@@ -92,7 +92,7 @@ get_header();
                     </li>
 
                     <li class="flex items-start">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/selection.svg" alt="Selection" class="mt-2 shrink-0" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/selection.svg" alt="Selection" class="mt-2 shrink-0" />
                         <div class="ml-2">
                             Our story began in 2020. We discovered the gap in streamlining and improving distribution
                             systems and channels and seized the opportunity to build supply chain systems that are
@@ -101,7 +101,7 @@ get_header();
                     </li>
 
                     <li class="flex items-start">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/selection.svg" alt="Selection" class="mt-2 shrink-0" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/selection.svg" alt="Selection" class="mt-2 shrink-0" />
                         <div class="ml-2">
                             <span class="font-semibold text-teal-700">Digital Supply Chain Platform Limited
                                 was incorporated to create various digital platforms to meet these core objectives. We
@@ -115,7 +115,7 @@ get_header();
 
             <!-- Right Image -->
             <div class="flex justify-center">
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/map.png" alt="Africa distribution map" class="max-w-sm w-full">
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/map.png" alt="Africa distribution map" class="max-w-sm w-full">
             </div>
 
         </div>
@@ -159,10 +159,10 @@ get_header();
                     <!-- Badge column (right) -->
                     <div class="hidden md:block justify-self-start">
                         <div class="relative w-24 h-24 lg:w-28 lg:h-28">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/rightbadge.svg" alt="badge"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/rightbadge.svg" alt="badge"
                                 class="absolute inset-0 pl-4 w-full h-full block">
                             <div class="absolute inset-0 flex items-center justify-center">
-                                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/target.svg" alt="mission icon"
+                                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/target.svg" alt="mission icon"
                                     class="block pr-2 w-8 h-8 lg:w-10 lg:h-10 object-contain">
                             </div>
                         </div>
@@ -174,10 +174,10 @@ get_header();
                     <!-- Badge column (left) -->
                     <div class="hidden md:block justify-self-end">
                         <div class="relative w-24 h-24 lg:w-28 lg:h-28">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/leftbadge.svg" alt="badge"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/leftbadge.svg" alt="badge"
                                 class="absolute pr-4 inset-0 w-full h-full block">
                             <div class="absolute inset-0 flex items-center justify-center">
-                                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/eye.svg" alt="vision icon"
+                                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/eye.svg" alt="vision icon"
                                     class="block pl-3 pb-1 w-8 h-8 lg:w-10 lg:h-10 object-contain">
                             </div>
                         </div>
@@ -213,19 +213,19 @@ get_header();
                     OUR VALUES
                 </h2>
             </div>
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/LeftComp-1.svg" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/LeftComp-1.svg" alt="background image"
                 class="absolute top-5 left-3 w-[150px] hidden md:block" />
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/LeftComp-1.svg" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/LeftComp-1.svg" alt="background image"
                 class="absolute top-[40%] right-40 w-[100px] hidden md:block" />
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Ellipses.png" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Ellipses.png" alt="background image"
                 class="absolute bottom-[20%] right-[21%]  hidden xl:block" />
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Ellipses.png" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Ellipses.png" alt="background image"
                 class="absolute bottom-[20%] left-[2%]  hidden xl:block" />
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Ellipses.png" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Ellipses.png" alt="background image"
                 class="absolute bottom-[20%] left-[34%]  hidden xl:block" />
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Ellipses.png" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Ellipses.png" alt="background image"
                 class="absolute top-[19%] right-[40%]  hidden xl:block" />
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Ellipses.png" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Ellipses.png" alt="background image"
                 class="absolute top-[20%] left-[19%]  hidden xl:block" />
             <div
                 class="absolute top-[14%] left-[17%] bg-[#52B2C44D] text-white text-4xl font-bold rounded-full w-20 h-20 flex items-center justify-center  hidden xl:flex">
@@ -302,10 +302,10 @@ get_header();
 
     <section class="relative overflow-hidden bg-[#F5FCFF] pt-8">
         <!-- Big ring, top-left -->
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/small-orange.svg" alt=""
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/small-orange.svg" alt=""
             class="pointer-events-none select-none absolute -left-30 -top-55  hidden sm:block z-0" />
         <!-- Small ring, mid-left -->
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/big-orange.svg" alt=""
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/big-orange.svg" alt=""
             class="pointer-events-none select-none absolute left-0 top-64 w-[9%] hidden sm:block z-0 opacity-90" />
 
         <div class="relative z-10 mx-auto max-w-6xl px-4 py-12 sm:py-16 lg:py-20">
@@ -318,7 +318,7 @@ get_header();
                         <span
                             class="grid h-10 w-10 place-items-center rounded-full bg-[#FFA669] text-white transition group-hover:translate-x-0.5"
                             aria-hidden="true">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="" class="h-5 w-5 object-contain" />
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="" class="h-5 w-5 object-contain" />
                         </span>
                         <span
                             class="absolute inset-0 rounded-full ring-2 ring-transparent group-focus-visible:ring-[#FFA669]"></span>
@@ -374,7 +374,7 @@ get_header();
                     class="relative w-full h-full p-8 md:p-16 text-white flex flex-col justify-center text-base md:text-lg">
 
                     <!-- Background pattern -->
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Pattern.png" alt="Background Pattern"
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Pattern.png" alt="Background Pattern"
                         class="absolute inset-0 w-full h-full object-cover pointer-events-none" />
 
                     <h2 class="relative text-3xl md:text-5xl leading-snug font-benton font-bold">
@@ -388,7 +388,7 @@ get_header();
                     </h3>
 
                     <h2 class="relative mt-4 text-base md:text-lg flex items-start gap-3">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/check.svg" alt="bullet" class="w-5 h-5 mt-1" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/check.svg" alt="bullet" class="w-5 h-5 mt-1" />
                         Explore our DDS solutions or contact our team to see how DSCPL can power your FMCG success.
                     </h2>
 
@@ -397,7 +397,7 @@ get_header();
                         <a href="#" style="background: linear-gradient(84.35deg, #6CD3E7 -2.47%, #235A66 100%);"
                             class="px-6 py-3 text-white font-medium rounded-md text-center transition duration-300 ease-in-out hover:brightness-90 text-base md:text-lg inline-flex items-center gap-2">
                             SIGN UP NOW
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" />
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" />
                         </a>
 
 
@@ -415,7 +415,7 @@ get_header();
                 <!-- Card with top-right & bottom-left curved -->
                 <div class="bg-[#448F9D] overflow-hidden shadow-lg max-w-md
               rounded-tr-[4rem] rounded-bl-[4rem]">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/pakage1.png" alt="FMCG Worker"
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/pakage1.png" alt="FMCG Worker"
                         class="w-full h-full object-cover rounded-tr-[1.5rem] rounded-bl-[1.5rem]" />
                 </div>
             </div>
@@ -438,7 +438,7 @@ get_header();
                     class="lg:col-span-2 group rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
                     <a href="#" class="block">
                         <div class="aspect-[19/6] w-full overflow-hidden bg-slate-100">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/truck.png" alt="Warehouse worker scanning packages"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/truck.png" alt="Warehouse worker scanning packages"
                                 class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
                         </div>
                     </a>
@@ -478,7 +478,7 @@ get_header();
                     <!-- Small card 1 -->
                     <article class="group flex gap-5">
                         <a href="#" class="shrink-0 w-36 sm:w-40 md:w-44 overflow-hidden rounded-xl bg-slate-100">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/saas.png" alt="Retail worker with clipboard"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/saas.png" alt="Retail worker with clipboard"
                                 class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" />
                         </a>
                         <div class="min-w-0">
@@ -512,7 +512,7 @@ get_header();
                     <!-- Small card 2 -->
                     <article class="group flex gap-5">
                         <a href="#" class="shrink-0 w-36 sm:w-40 md:w-44 overflow-hidden rounded-xl bg-slate-100">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/warehouse.png" alt="Hand using a tablet"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/warehouse.png" alt="Hand using a tablet"
                                 class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]" />
                         </a>
                         <div class="min-w-0">

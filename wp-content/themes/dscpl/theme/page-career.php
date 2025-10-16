@@ -16,7 +16,7 @@
 get_header();
 ?>
    <section class="relative overflow-hidden">
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/career-bg.png" alt="" aria-hidden="true"
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/career-bg.png" alt="" aria-hidden="true"
             class="pointer-events-none select-none absolute inset-0 -z-10 h-full w-full object-cover object-bottom" />
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center pt-16 pb-24 lg:pt-24 lg:pb-40">
@@ -31,13 +31,13 @@ get_header();
                         <a href="#jobs"
                             class="inline-flex items-center gap-2 rounded-md px-5 py-3 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-black/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 hover:opacity-95 [background:linear-gradient(84.35deg,_#6CD3E7_-2.47%,_#235A66_100%)]">
                             View Job Openings
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="" aria-hidden="true"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="" aria-hidden="true"
                                 class="h-4 w-4 object-contain" loading="lazy" />
                         </a>
                     </div>
                 </div>
                 <div class="relative flex items-center justify-center">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/career-main-page.png" />
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/career-main-page.png" />
                 </div>
             </div>
         </div>
@@ -77,15 +77,15 @@ get_header();
                 <div class="relative w-full flex justify-center">
                     <div class="relative">
                         <!-- Background layer (bottom-most) -->
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/contact-sectonBG.svg" alt="Decorative background"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/contact-sectonBG.svg" alt="Decorative background"
                             class="absolute z-0 -top-8 -right-8 w-[800px] sm:w-[960px] md:w-[1120px] opacity-80" />
 
                         <!-- Delivery person (middle layer) -->
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/delivery-person.png" alt="Delivery person"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/delivery-person.png" alt="Delivery person"
                             class="relative z-30 left-[-30%] h-[260px] sm:h-[300px] md:h-[340px] object-contain mx-auto" />
 
                         <!-- Dashboard overlay (top layer) -->
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/dashboard-1.png" alt="Dashboard preview"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/dashboard-1.png" alt="Dashboard preview"
                             class="absolute z-20 right-2 top-[10%] w-[60%] sm:right-4 sm:top-[15%] sm:w-[50%] md:-right-10 md:top-[20%] md:w-[320px] drop-shadow-lg" />
                     </div>
                 </div>
@@ -118,7 +118,7 @@ get_header();
 
                     <!-- card -->
                     <div class="relative overflow-hidden rounded-2xl ring-1 ring-black/5 shadow-md">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/NairoMap.jpg" alt="Map centered on Nairobi, Kenya"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/NairoMap.jpg" alt="Map centered on Nairobi, Kenya"
                             class="block h-[280px] w-full object-cover md:h-[320px]" />
                     </div>
                 </div>
@@ -150,11 +150,11 @@ get_header();
 
     <section class="relative overflow-hidden bg-[#F3F9FD]">
         <!-- Left decorative logo -->
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/RIghtComp.svg" alt=""
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/RIghtComp.svg" alt=""
             class="pointer-events-none absolute -left-10 top-6 hidden h-50 w-50 opacity-30 sm:block md:-left-6 lg:left-2 xl:left-6" />
 
         <!-- Right decorative logo -->
-        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/LeftComp.svg" alt=""
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/LeftComp.svg" alt=""
             class="pointer-events-none absolute right-2 top-8 hidden h-21 w-21 opacity-30 sm:block md:right-4 lg:right-10" />
 
         <div class="mx-auto max-w-7xl px-5 py-14 sm:px-6 md:py-16 lg:px-8">
@@ -174,7 +174,7 @@ get_header();
                     class="relative rounded-2xl bg-white p-6 pb-7 pt-12 text-center shadow-[0_10px_30px_rgba(17,34,58,0.08)]">
                     <div class="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
                         <div class="flex h-20 w-20 items-center justify-center rounded-full  ">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/event1.png" alt="Stability icon"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/event1.png" alt="Stability icon"
                                 class="w-full select-none" />
                         </div>
                     </div>
@@ -188,7 +188,7 @@ get_header();
                     class="relative rounded-2xl bg-white p-6 pb-7 pt-12 text-center shadow-[0_10px_30px_rgba(17,34,58,0.08)]">
                     <div class="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
                         <div class="flex h-20 w-20 items-center justify-center rounded-full ">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Health-Family.png" alt="Growth icon"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Health-Family.png" alt="Growth icon"
                                 class="h-100 w-100 object-contain select-none" />
                         </div>
                     </div>
@@ -202,7 +202,7 @@ get_header();
                     class="relative rounded-2xl bg-white p-6 pb-7 pt-12 text-center shadow-[0_10px_30px_rgba(17,34,58,0.08)]">
                     <div class="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
                         <div class="flex h-20 w-20 items-center justify-center rounded-full ">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Health-Family.png" alt="Health and family icon"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Health-Family.png" alt="Health and family icon"
                                 class="h-100 w-100 object-contain select-none" />
                         </div>
                     </div>
@@ -232,13 +232,13 @@ get_header();
                 <button
                     class="inline-flex items-center gap-2 bg-gradient-to-r from-[#25A4B5] to-[#006C90] text-white font-medium px-5 py-3 rounded-md shadow hover:opacity-90 transition">
                     Watch the video
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow icon" />
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow icon" />
                 </button>
             </div>
 
             <!-- Right Video Thumbnail -->
             <div class="relative rounded-xl overflow-hidden shadow-lg">
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/CarrerAD-scaled.jpg" alt="Team working together"
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/CarrerAD-scaled.jpg" alt="Team working together"
                     class="w-full h-full object-cover" />
                 <!-- Play Button Overlay -->
                 <div class="absolute inset-0 flex items-center justify-center">
@@ -261,19 +261,19 @@ get_header();
                 </h2>
             </div>
             <div class="relative mt-10 hidden h-24 lg:block">
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Uparrow.svg" alt=""
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Uparrow.svg" alt=""
                     class="pointer-events-none absolute left-[15%] top-[79%]  -translate-y-1/2  opacity-90">
 
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Downarrow.svg" alt=""
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Downarrow.svg" alt=""
                     class="pointer-events-none absolute left-[41%] bottom-[-120%] -translate-y-1/2  opacity-90">
 
-                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Uparrow.svg" alt=""
+                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Uparrow.svg" alt=""
                     class="pointer-events-none absolute left-[66%] top-[79%]  -translate-y-1/2  opacity-90">
             </div>
             <div class="mt-8 grid gap-12 sm:grid-cols-2 lg:mt-6 lg:grid-cols-4">
                 <div class="text-center">
                     <div class="mx-auto mb-3 flex h-14 w-14 items-center justify-center">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/free-lunch.svg" alt="Free Lunch icon"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/free-lunch.svg" alt="Free Lunch icon"
                             class="h-6 w-6 object-contain" />
                     </div>
                     <h3 class="text-lg font-semibold text-slate-900">Free Lunch</h3>
@@ -284,7 +284,7 @@ get_header();
 
                 <div class="text-center">
                     <div class="mx-auto mb-3 flex h-14 w-14 items-center justify-center">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/urban-office.svg" alt="Urban Office icon" class="object-contain" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/urban-office.svg" alt="Urban Office icon" class="object-contain" />
                     </div>
                     <h3 class="text-lg font-semibold text-slate-900">Urban Office</h3>
                     <p class="mx-auto mt-2 max-w-xs text-sm leading-6 text-slate-600">
@@ -294,7 +294,7 @@ get_header();
 
                 <div class="text-center">
                     <div class="mx-auto mb-3 flex h-14 w-14 items-center justify-center">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/remote-work.svg" alt="Remote Work icon" class="object-contain " />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/remote-work.svg" alt="Remote Work icon" class="object-contain " />
                     </div>
                     <h3 class="text-lg font-semibold text-slate-900">Remote Work</h3>
                     <p class="mx-auto mt-2 max-w-xs text-sm leading-6 text-slate-600">
@@ -304,7 +304,7 @@ get_header();
 
                 <div class="text-center">
                     <div class="mx-auto mb-3 flex h-14 w-14 items-center justify-center">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/job-security.svg" alt="Job Security icon"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/job-security.svg" alt="Job Security icon"
                             class="h-6 w-6 object-contain" />
                     </div>
                     <h3 class="text-lg font-semibold text-slate-900">Job Security</h3>
@@ -319,10 +319,10 @@ get_header();
     <section class="relative bg-white">
         <!-- Corner logos (decorative) -->
         <div class="pointer-events-none absolute left-2 mt-6 top-6 hidden sm:block">
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/RIghtComp.svg" alt="" class="h-50 w-50 opacity-80" />
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/RIghtComp.svg" alt="" class="h-50 w-50 opacity-80" />
         </div>
         <div class="pointer-events-none absolute right-2 top-6 hidden sm:block">
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/LeftComp.svg" alt="" class="h-25 w-25 opacity-80" />
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/LeftComp.svg" alt="" class="h-25 w-25 opacity-80" />
         </div>
 
         <!-- Container -->
@@ -343,7 +343,7 @@ get_header();
                 <article
                     class="flex flex-col w-[60%] rounded-2xl border border-slate-100 bg-white p-6 shadow-sm  transition-shadow duration-200 hover:shadow-md">
                     <div class="rounded-xl pt-1 bg-[#80CEC8] border-t border-[#80CEC8]">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/GP2.jpg" alt="Innovation"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/GP2.jpg" alt="Innovation"
                             class="aspect-[4/4] w-full rounded-lg object-cover" />
                     </div>
                     <div class="mt-5 grow">
@@ -362,7 +362,7 @@ get_header();
                 <article
                     class="flex flex-col w-[60%] rounded-2xl border border-slate-100 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-md">
                     <div class="rounded-xl pt-1 bg-[#80CEC8] border-t border-[#80CEC8]">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/GP3.jpg" alt="Collaboration"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/GP3.jpg" alt="Collaboration"
                             class="aspect-[4/4] w-full rounded-lg object-cover" />
                     </div>
                     <div class="mt-5 grow">
@@ -381,7 +381,7 @@ get_header();
                 <article
                     class="flex flex-col w-[60%] rounded-2xl border border-slate-100 bg-white p-6 shadow-sm transition-shadow duration-200 hover:shadow-md">
                     <div class="rounded-xl pt-1 bg-[#80CEC8] border-t border-[#80CEC8]">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/GP1.jpg" alt="Integrity"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/GP1.jpg" alt="Integrity"
                             class="aspect-[4/4] w-full rounded-lg object-cover" />
                     </div>
                     <div class="mt-5 grow">
@@ -405,7 +405,7 @@ get_header();
                 class="flex gap-7 mb-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
                 <article
                     class="relative snap-start shrink-0 w-[280px] sm:w-[300px] md:w-[340px] h-[360px] rounded-2xl overflow-hidden bg-slate-200">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/ImageWiz4-scaled.jpg" alt="Robert Johnson" class="h-full w-full object-cover">
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/ImageWiz4-scaled.jpg" alt="Robert Johnson" class="h-full w-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     <span
                         class="absolute left-4 bottom-12 text-[10px] font-bold uppercase tracking-[0.12em] text-white/85">CEO</span>
@@ -415,7 +415,7 @@ get_header();
                 </article>
                 <article
                     class="relative snap-start shrink-0 w-[280px] sm:w-[300px] md:w-[340px] h-[360px] rounded-2xl overflow-hidden bg-slate-200">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/ImageWiz2-scaled.jpg" alt="Alexandra Jones" class="h-full w-full object-cover">
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/ImageWiz2-scaled.jpg" alt="Alexandra Jones" class="h-full w-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     <span
                         class="absolute left-4 bottom-12 text-[10px] font-bold uppercase tracking-[0.12em] text-white/85">Product
@@ -426,7 +426,7 @@ get_header();
                 </article>
                 <article
                     class="relative snap-start shrink-0 w-[280px] sm:w-[300px] md:w-[340px] h-[360px] rounded-2xl overflow-hidden bg-slate-200">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/ImageWiz3-scaled.jpg" alt="Steven Purcell" class="h-full w-full object-cover">
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/ImageWiz3-scaled.jpg" alt="Steven Purcell" class="h-full w-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     <span
                         class="absolute left-4 bottom-12 text-[10px] font-bold uppercase tracking-[0.12em] text-white/85">Senior
@@ -437,7 +437,7 @@ get_header();
                 </article>
                 <article
                     class="relative snap-start shrink-0 w-[280px] sm:w-[300px] md:w-[340px] h-[360px] rounded-2xl overflow-hidden bg-slate-200">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/ImageWiz2-scaled.jpg" alt="Alexa Green" class="h-full w-full object-cover">
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/ImageWiz2-scaled.jpg" alt="Alexa Green" class="h-full w-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     <span
                         class="absolute left-4 bottom-12 text-[10px] font-bold uppercase tracking-[0.12em] text-white/85">Designer</span>
@@ -457,13 +457,13 @@ get_header();
                     <button id="teamPrev"
                         class="grid h-9 w-9 place-items-center rounded-lg border border-[#44909F] bg-white text-slate-700 transition hover:bg-slate-50 active:scale-95 focus:outline-none focus:ring-2 focus:ring-slate-300"
                         type="button" aria-label="Previous">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/left-arrow.svg" alt="" class="h-4 w-4 shrink-0" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/left-arrow.svg" alt="" class="h-4 w-4 shrink-0" />
                     </button>
 
                     <button id="teamNext"
                         class="grid h-9 w-9 place-items-center rounded-lg border border-[#44909F] bg-white text-slate-700 transition hover:bg-slate-50 active:scale-95 focus:outline-none focus:ring-2 focus:ring-slate-300"
                         type="button" aria-label="Action">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow-blue.svg" alt="" class="h-4 w-4 shrink-0" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow-blue.svg" alt="" class="h-4 w-4 shrink-0" />
                     </button>
                 </div>
             </div>
@@ -492,7 +492,7 @@ get_header();
                         <div class="flex items-center gap-2 bg-[#F6FAFE] px-5 py-4 border-b border-[#E6ECF2]">
                             <span
                                 class="inline-flex h-4 w-4 items-center justify-center rounded text-white text-[10px] leading-none"><img
-                                    src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/famicons_list-outline.svg" /></span>
+                                    src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/famicons_list-outline.svg" /></span>
                             <span class="text-[15px] font-semibold text-[#334155]">Categories</span>
                         </div>
                         <!-- Items -->
@@ -540,7 +540,7 @@ get_header();
                                 <div class="shrink-0">
                                     <span
                                         class="inline-flex h-10 w-12 items-center justify-center rounded-xl border border-[#44909F] text-[#6B7280]">
-                                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow-blue.svg" alt="Go to details"
+                                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow-blue.svg" alt="Go to details"
                                             class="h-4 w-4 object-contain pointer-events-none select-none"
                                             loading="lazy" decoding="async" />
                                     </span>
@@ -570,7 +570,7 @@ get_header();
                                 <div class="shrink-0">
                                     <span
                                         class="inline-flex h-10 w-12 items-center justify-center rounded-xl border border-[#44909F] text-[#6B7280]">
-                                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow-blue.svg" alt="Go to details"
+                                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow-blue.svg" alt="Go to details"
                                             class="h-4 w-4 object-contain pointer-events-none select-none"
                                             loading="lazy" decoding="async" />
                                     </span>
@@ -600,7 +600,7 @@ get_header();
                                 <div class="shrink-0">
                                     <span
                                         class="inline-flex h-10 w-12 items-center justify-center rounded-xl border border-[#44909F] text-[#6B7280]">
-                                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow-blue.svg" alt="Go to details"
+                                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow-blue.svg" alt="Go to details"
                                             class="h-4 w-4 object-contain pointer-events-none select-none"
                                             loading="lazy" decoding="async" />
                                     </span>
@@ -656,7 +656,7 @@ get_header();
                     <div class="flex items-start gap-4 mb-5">
                         <div
                             class="w-[48px] h-[48px] rounded-full border border-[#E4EAF1] flex items-center justify-center">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/circle-avatar.svg" alt="user" class="w-[40px] h-[40px]" />
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/circle-avatar.svg" alt="user" class="w-[40px] h-[40px]" />
                         </div>
                         <div>
                             <h3 class="font-semibold text-[#0A2342] text-[16px]">Bill Carter</h3>
@@ -682,7 +682,7 @@ get_header();
                     <div class="flex items-start gap-4 mb-5">
                         <div
                             class="w-[48px] h-[48px] rounded-full border border-[#E4EAF1] flex items-center justify-center">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/circle-avatar.svg" alt="user" class="w-[40px] h-[40px]" />
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/circle-avatar.svg" alt="user" class="w-[40px] h-[40px]" />
                         </div>
                         <div>
                             <h3 class="font-semibold text-[#0A2342] text-[16px]">Stacy Sullivan</h3>
@@ -805,7 +805,7 @@ get_header();
                             <button type="submit"
                                 class="inline-flex items-center gap-2 rounded-lg px-5 py-2.5 font-semibold text-white shadow-sm transition focus:outline-none focus:ring-2 focus:ring-teal-300 bg-[linear-gradient(84.35deg,_#6CD3E7_-2.47%,_#235A66_100%)]">
                                 Submit
-                                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="" class="shrink-0 object-contain" />
+                                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="" class="shrink-0 object-contain" />
                             </button>
                             <label class="mt-4 flex items-start gap-3 text-sm text-slate-600">
                                 <input type="checkbox"
@@ -819,7 +819,7 @@ get_header();
                 <!-- Image -->
                 <div class="order-1 flex items-center justify-center lg:order-2">
                     <div class="relative aspect-[3/2] w-full overflow-hidden rounded-xl">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/packingImage.jpg" alt="Team working in warehouse"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/packingImage.jpg" alt="Team working in warehouse"
                             class="h-full w-full object-cover" />
                     </div>
                 </div>

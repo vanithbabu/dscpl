@@ -37,9 +37,9 @@
       <div>
         <h3 class="text-white font-semibold mb-4">Solutions</h3>
         <ul class="space-y-2 text-gray-300 text-sm">
-          <li><a href="http://localhost:8888/dscpl/dds-enterprise-cloud-platform/" class="hover:text-white">DDS Cloud for Large Enterprises</a></li>
-          <li><a href="http://localhost:8888/dscpl/dds-saas-platform-for-smes/" class="hover:text-white">DDS SaaS for Medium Enterprises</a></li>
-          <li><a href="http://localhost:8888/dscpl/dds-retail/" class="hover:text-white">DDS Retail</a></li>
+          <li><a href="<?php echo site_url(); ?>/dds-enterprise-cloud-platform/" class="hover:text-white">DDS Cloud for Large Enterprises</a></li>
+          <li><a href="<?php echo site_url(); ?>/dds-saas-platform-for-smes/" class="hover:text-white">DDS SaaS for Medium Enterprises</a></li>
+          <li><a href="<?php echo site_url(); ?>/dds-retail/" class="hover:text-white">DDS Retail</a></li>
         </ul>
       </div>
 
@@ -47,10 +47,10 @@
         <h3 class="text-white font-semibold mb-4">Company</h3>
         <ul class="space-y-2 text-gray-300 text-sm">
           <li><a href="<?php echo site_url(); ?>/about-us" class="hover:text-white">About</a></li>
-          <li><a href="http://localhost:8888/dscpl/contact-us/" class="hover:text-white">Contact us</a></li>
-          <li><a href="http://localhost:8888/dscpl/career/" class="hover:text-white">Careers</a></li>
+          <li><a href="<?php echo site_url(); ?>/contact-us/" class="hover:text-white">Contact us</a></li>
+          <li><a href="<?php echo site_url(); ?>/career/" class="hover:text-white">Careers</a></li>
           <li><a href="#" class="hover:text-white">Culture</a></li>
-          <li><a href="http://localhost:8888/dscpl/blog" class="hover:text-white">Blog</a></li>
+          <li><a href="<?php echo site_url(); ?>/blog" class="hover:text-white">Blog</a></li>
         </ul>
       </div>
 
@@ -79,8 +79,8 @@
     <div class="border-t-2 border-dashed border-white-600 mt-8 py-4 mx-6 text-center text-white-400 text-sm">
       <p>
         Copyright &copy; 2025 Digital Distribution Solutions |
-        <a href="http://localhost:8888/dscpl/terms-and-conditions/" class="underline hover:text-white">Terms and Conditions</a> |
-        <a href="http://localhost:8888/dscpl/privacy-policy/" class="underline hover:text-white">Privacy Policy</a>
+        <a href="<?php echo site_url(); ?>/terms-and-conditions/" class="underline hover:text-white">Terms and Conditions</a> |
+        <a href="<?php echo site_url(); ?>/privacy-policy/" class="underline hover:text-white">Privacy Policy</a>
       </p>
     </div>
 

@@ -18,13 +18,13 @@ get_header();
 
  <main>
         <section class="relative min-h-[600px] flex items-center bg-[#286A81] overflow-hidden">
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/cuboid.png" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/cuboid.png" alt="background image"
                 class="absolute bottom-0 left-[20%] w-[800px] hidden md:block" />
 
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/hexagonal-top.png" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/hexagonal-top.png" alt="background image"
                 class="absolute top-0 left-[0%] opacity-5 hidden md:block" />
 
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/hexagonal-bottom.png" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/hexagonal-bottom.png" alt="background image"
                 class="absolute bottom-0 right-[0%] hidden md:block" />
 
             <div class="max-w-7xl mx-auto px-4 relative z-10 w-full">
@@ -41,7 +41,7 @@ get_header();
                         <p class="text-md sm:text-xl md:text-[20px] font-normal mb-8 max-w-lg">
                             John Doe - CEO Abc Company Ltd
                         </p>
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/profile.png" alt="arrow">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/profile.png" alt="arrow">
                         <p class="text-md sm:text-xl md:text-[20px] font-bold mb-8 max-w-lg">
                             Join other 320+ retailers now
                         </p>
@@ -49,7 +49,7 @@ get_header();
                         <div class=" space-y-4 sm:space-y-0 sm:space-x-4">
                             <a href="#"
                                 class="transform hover:scale-[1.01] transition duration-300  inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
-                                Request a Demo <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow"
+                                Request a Demo <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow"
                                     class="mt-1 ml-2">
                             </a>
                         </div>
@@ -57,14 +57,14 @@ get_header();
 
                     <div class="w-full ">
                         <div class="flex flex-row items-center gap-4">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/african-american-manager.png" alt="Group"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/african-american-manager.png" alt="Group"
                                 class="w-20 sm:w-40 md:w-80 lg:w-auto" />
 
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/calm-curly-brunette.png" alt="ceo"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/calm-curly-brunette.png" alt="ceo"
                                 class="w-20 sm:w-40 md:w-60 lg:w-auto xl:mt-40 xl:pt-16" />
 
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/calm-curly-brunette.png" alt="half" class="hidden lg:block xl:mt-40 xl:pt-16" />
-                              <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/calm-curly-brunette.png" alt="half" class="hidden lg:block xl:mt-40 xl:pt-16" />
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/calm-curly-brunette.png" alt="half" class="hidden lg:block xl:mt-40 xl:pt-16" />
+                              <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/calm-curly-brunette.png" alt="half" class="hidden lg:block xl:mt-40 xl:pt-16" />
                         </div>
                     </div>
                 </div>
@@ -78,51 +78,51 @@ get_header();
 
                 <div class="overflow-hidden relative">
                     <div class="flex items-center gap-12 animate-slide">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/microsoft.svg" alt="Microsoft"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/microsoft.svg" alt="Microsoft"
                             class="h-[35px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/metallb.svg" alt="Microsoft"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/metallb.svg" alt="Microsoft"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/linked.svg" alt="MetalLB"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/linked.svg" alt="MetalLB"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Instagram.svg" alt="LinkedIn"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Instagram.svg" alt="LinkedIn"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/applepay.svg" alt="Instagram" class="h-[40px] w-[163px] object-contain" />
-                      <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/microsoft.svg" alt="Microsoft"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/applepay.svg" alt="Instagram" class="h-[40px] w-[163px] object-contain" />
+                      <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/microsoft.svg" alt="Microsoft"
                             class="h-[35px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/metallb.svg" alt="Microsoft"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/metallb.svg" alt="Microsoft"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/linked.svg" alt="MetalLB"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/linked.svg" alt="MetalLB"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Instagram.svg" alt="LinkedIn"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Instagram.svg" alt="LinkedIn"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/applepay.svg" alt="Instagram" class="h-[40px] w-[163px] object-contain" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/applepay.svg" alt="Instagram" class="h-[40px] w-[163px] object-contain" />
                       
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/microsoft.svg" alt="Microsoft"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/microsoft.svg" alt="Microsoft"
                             class="h-[35px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/metallb.svg" alt="Microsoft"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/metallb.svg" alt="Microsoft"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/linked.svg" alt="MetalLB"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/linked.svg" alt="MetalLB"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Instagram.svg" alt="LinkedIn"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Instagram.svg" alt="LinkedIn"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/applepay.svg" alt="Instagram" class="h-[40px] w-[163px] object-contain" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/applepay.svg" alt="Instagram" class="h-[40px] w-[163px] object-contain" />
                       
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/microsoft.svg" alt="Microsoft"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/microsoft.svg" alt="Microsoft"
                             class="h-[35px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/metallb.svg" alt="Microsoft"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/metallb.svg" alt="Microsoft"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/linked.svg" alt="MetalLB"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/linked.svg" alt="MetalLB"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Instagram.svg" alt="LinkedIn"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Instagram.svg" alt="LinkedIn"
                             class="h-[40px] w-[163px] object-contain" />
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/applepay.svg" alt="Instagram" class="h-[40px] w-[163px] object-contain" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/applepay.svg" alt="Instagram" class="h-[40px] w-[163px] object-contain" />
                       
                     </div>
                 </div>
             </div>
         </section>
         <section class="bg-white py-8 md:py-12 relative">
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/vector.svg" alt="background image" class="absolute top-[30%] right-[15%]" />
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/vector.svg" alt="background image" class="absolute top-[30%] right-[15%]" />
             <div class="max-w-7xl mx-auto px-4">
                 <div class="flex flex-col md:flex-row items-start sm:items-center justify-between gap-6 mb-8">
                     <div class="max-w-xl">
@@ -160,7 +160,7 @@ get_header();
                     </div>
                 </div>
                 <div class="flex justify-center">
-                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Twitterpost.png" alt="orders">
+                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Twitterpost.png" alt="orders">
                 </div>
             </div>
         </section>
@@ -170,28 +170,28 @@ get_header();
                 lg:divide-x divide-[#2E7382]">
                     <div>
                         <div class="flex justify-center">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/FrameCube.svg" alt="orders">
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/FrameCube.svg" alt="orders">
                         </div>
                         <h3 class="text-lg font-medium">Orders created</h3>
                         <p class="text-2xl font-bold">0.0M</p>
                     </div>
                     <div>
                         <div class="flex justify-center">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/FrameDoodle.svg" alt="delivery">
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/FrameDoodle.svg" alt="delivery">
                         </div>
                         <h3 class="text-lg font-medium">Delivery journeys</h3>
                         <p class="text-2xl font-bold">0.0M</p>
                     </div>
                     <div>
                         <div class="flex justify-center">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/FrameNote.svg" alt="transactions">
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/FrameNote.svg" alt="transactions">
                         </div>
                         <h3 class="text-lg font-medium">Transactions handled</h3>
                         <p class="text-2xl font-bold">$000 +</p>
                     </div>
                     <div>
                         <div class="flex justify-center">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/arrowFrame.svg" alt="cost">
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/arrowFrame.svg" alt="cost">
                         </div>
                         <h3 class="text-lg font-medium">Reduction in cost</h3>
                         <p class="text-2xl font-bold">00%</p>
@@ -200,7 +200,7 @@ get_header();
             </div>
         </section>
         <section class="py-8  relative overflow-hidden m-4 rounded-xl">
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/gravity.svg" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/gravity.svg" alt="background image"
                 class="absolute bottom-0 left-[0%] w-[200px] " />
             <div class="max-w-7xl mx-auto px-4 relative z-10">
                 <div class="text-center mb-12">
@@ -211,7 +211,7 @@ get_header();
                     </h2>
                     <div
                         class="relative inline-block my-6 w-full max-w-3xl mx-auto rounded-md overflow-hidden shadow-lg">
-                        <video id="demoVideo" class="w-full" poster="http://localhost:8888/dscpl/wp-content/uploads/2025/10/partner.png">
+                        <video id="demoVideo" class="w-full" poster="<?php echo site_url(); ?>/wp-content/uploads/2025/10/partner.png">
                             <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
                             <track id="subtitleTrack" label="English" kind="subtitles" srclang="en"
                                 src="https://gist.githubusercontent.com/akshaymarch7/9c5af41a10db15b2c67f978ede36cc/raw/7b476a1d0b0b3e44858916eb8ffab10abca1d563/sample.vtt"
@@ -219,7 +219,7 @@ get_header();
                             Your browser does not support the video tag.
                         </video>
 
-                        <img id="playOverlay" src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/play.svg" alt="bluetube"
+                        <img id="playOverlay" src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/play.svg" alt="bluetube"
                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10 sm:w-12 md:w-16 lg:w-auto cursor-pointer transition-opacity duration-300" />
 
                         <div
@@ -247,7 +247,7 @@ get_header();
                     </p>
                     <a href="#"
                         class="mt-4 transform hover:scale-[1.01] transition duration-300 inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] shadow-lg">
-                        Request a Demo<img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
+                        Request a Demo<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
                     </a>
                 </div>
             </div>
@@ -265,13 +265,13 @@ get_header();
                         </p>
                         <a href="#"
                             class="transform hover:scale-[1.01] transition duration-300 inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] shadow-lg">
-                            Get started for free<img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow"
+                            Get started for free<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow"
                                 class="mt-1 ml-2">
                         </a>
                     </div>
 
                     <div class=" lg:block lg:col-span-2">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/dashboard.png" alt="arrow" class="mt-1 ml-2">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/dashboard.png" alt="arrow" class="mt-1 ml-2">
                     </div>
 
                 </div>

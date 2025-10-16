@@ -74,12 +74,12 @@ get_header();
                             </h1>
                             <div
                                 class="flex flex-col sm:flex-row items-center sm:justify-between text-sm text-gray-600 mb-4">
-                                <span class=" flex items-center mr-2"><img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/profile-1.png"
+                                <span class=" flex items-center mr-2"><img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/profile-1.png"
                                         alt="clockicon" class="mr-2"> Joan Doe-Smith</span>
-                                <span class="flex items-center mr-2"><img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/calendar.svg"
+                                <span class="flex items-center mr-2"><img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/calendar.svg"
                                         alt="clockicon" class="mr-2"> Mar 15, 2022</span>
                                 <span class="flex items-center">
-                                    <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/clockicon.svg" alt="clockicon" class="mr-2">
+                                    <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/clockicon.svg" alt="clockicon" class="mr-2">
                                     10 min read
                                 </span>
                             </div>
@@ -97,7 +97,7 @@ get_header();
                         </div>
 
                         <div class="mb-4 rounded-lg overflow-hidden">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/checking.png" alt="FMCG Retail Automation" class="w-full h-auto">
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/checking.png" alt="FMCG Retail Automation" class="w-full h-auto">
                         </div>
 
                         <div>
@@ -144,7 +144,7 @@ get_header();
                             up resources to invest in other areas of your business.
                         </p>
                         <div class="mb-4 rounded-lg overflow-hidden">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/braid.png" alt="FMCG Retail Automation" class="w-full h-auto">
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/braid.png" alt="FMCG Retail Automation" class="w-full h-auto">
                         </div>
                         <div>
                             <h2 class="text-xl sm:text-2xl font-bold text-[#2E3A65] mb-2">
@@ -176,7 +176,7 @@ get_header();
                                 sales days, enabling data-driven decisions.
                             </p>
                             <div class="mb-4 rounded-lg overflow-hidden">
-                                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/headphone.png" alt="FMCG Retail Automation"
+                                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/headphone.png" alt="FMCG Retail Automation"
                                     class="w-full h-auto">
                             </div>
                             <p class="text-gray-700 leading-relaxed mb-4">
@@ -305,7 +305,7 @@ get_header();
 
                         <div class="flex justify-center lg:justify-end">
                             <div class="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full overflow-hidden">
-                                <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/yellow.png" alt="Retail Team"
+                                <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/yellow.png" alt="Retail Team"
                                     class="w-full h-full object-cover">
                             </div>
                         </div>
@@ -330,7 +330,7 @@ get_header();
                     </a>
                     <a href="#"
                         class="w-8 h-8 bg-[#609FA3] hover:bg-teal-700 text-white rounded flex items-center justify-center transition duration-300">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/Email.svg" alt="mail" />
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/Email.svg" alt="mail" />
                     </a>
                 </div>
             </div>
@@ -343,7 +343,7 @@ get_header();
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="flex flex-col">
-                        <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/truck.png" alt="FMCG Delivery"
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/truck.png" alt="FMCG Delivery"
                             class="w-full h-auto max-h-64 object-cover rounded-lg" onerror="this.style.display='none'">
                         <div class="py-6">
                             <div class="flex flex-wrap items-center text-sm text-[#2E7382] mb-3 font-medium">
@@ -370,7 +370,7 @@ get_header();
 
                     <div class="space-y-6">
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/saas.png" alt="Retail" class="w-full h-auto rounded-lg"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/saas.png" alt="Retail" class="w-full h-auto rounded-lg"
                                 onerror="this.style.display='none'">
                             <div class="p-4 sm:col-span-2">
                                 <div class="flex flex-wrap items-center text-xs text-[#2E7382] mb-2 font-medium">
@@ -396,7 +396,7 @@ get_header();
                         </div>
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
-                            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/warehouse.png" alt="Analytics" class="w-full h-auto rounded-lg"
+                            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/warehouse.png" alt="Analytics" class="w-full h-auto rounded-lg"
                                 onerror="this.style.display='none'">
                             <div class="p-4 sm:col-span-2">
                                 <div class="flex flex-wrap items-center text-xs text-[#2E7382] mb-2 font-medium">
@@ -425,7 +425,7 @@ get_header();
             </div>
         </section>
         <section class="relative bg-[#44909F] py-12 sm:py-16 lg:py-20">
-            <img src="http://localhost:8888/dscpl/wp-content/uploads/2025/10/rocket.svg" alt="background image"
+            <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/rocket.svg" alt="background image"
                 class="absolute bottom-5 left-[20%] hidden lg:block" />
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 ">
