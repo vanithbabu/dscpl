@@ -19,7 +19,7 @@ get_header();
  <main>
         <section class="relative min-h-[600px] flex items-center bg-[#286A81] overflow-hidden">
             <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/cuboid.png" alt="background image"
-                class="absolute bottom-0 left-[20%] w-[800px] hidden md:block" />
+                class="absolute  left-[20%] w-[500px] hidden md:block" />
 
             <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/hexagonal-top.png" alt="background image"
                 class="absolute top-0 left-[0%] opacity-5 hidden md:block" />

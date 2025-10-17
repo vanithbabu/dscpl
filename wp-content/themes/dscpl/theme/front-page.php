@@ -62,7 +62,7 @@ get_header();
               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/groupmens.png" alt="Group"
                 class="rounded-full h-32 sm:h-40 md:h-44 lg:h-48 mx-auto">
               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/packingImage.jpg" alt="Group"
-                class="h-20 sm:h-20 md:h-20 lg:h-28 mx-auto rounded-md">
+                class="h-20 sm:h-20 md:h-20 lg:h-48 mx-auto rounded-md">
               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/girl.png" alt="Girl"
                 class="h-40 sm:h-48 md:h-56 lg:h-64 w-auto mx-auto rounded-md">
               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/groupmens.png" alt="Group"
@@ -133,7 +133,7 @@ get_header();
     <section class="py-8 bg-[#E0F7FA] relative overflow-hidden m-4 rounded-xl">
       <div>
         <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/vector-1.svg" alt="background image" class="absolute top-60 right-[6%]" />
-        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/vector-1.svg" alt="background image" class="absolute top-30 left-[5%] w-[200px]" />
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/vector-1.svg" alt="background image" class="absolute top-10 left-[5%] w-[200px]" />
         <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/vector-1.svg" alt="background image" class="absolute bottom-0 left-[0%] w-[200px] " />
       </div>
       <div class="max-w-7xl mx-auto px-4 relative z-10">
