@@ -401,7 +401,7 @@ get_header();
                         </a>
 
 
-                        <a href="#"
+                        <a href="http://159.203.159.79/contact-us/"
                             class="px-6 py-3 border border-white hover:bg-white hover:text-[#3A9DB2] text-white font-medium rounded-md text-center transition text-base md:text-lg">
                             CONTACT SALES
                         </a>

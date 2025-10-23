@@ -32,7 +32,7 @@ get_header();
                         Run sales, stock, and customers with ease, anytime, anywhere. Stay in control with instant
                         insights and faster service.
                     </p>
-                    <a href="#"
+                    <a href="http://159.203.159.79/contact-us/"
                         class="transform hover:scale-[1.01] transition duration-300 inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] shadow-lg">
                         Request a Demo <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
                     </a>
@@ -221,7 +221,7 @@ get_header();
                         Join thousands of retailers already simplifying operations and boosting profits with DDS. Sign
                         up now for a free demo.
                     </p>
-                    <a href="#"
+                    <a href="http://159.203.159.79/contact-us/"
                         class="transform hover:scale-[1.01] transition duration-300 inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] shadow-lg">
                         Get started for free <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
                     </a>

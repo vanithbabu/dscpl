@@ -30,7 +30,7 @@ get_header();
                         Smart, self-service software to help growing retail businesses in East Africa digitize sales,
                         inventory, and payments, without complex IT setups.
                     </p>
-                    <a href="#"
+                    <a href="http://159.203.159.79/contact-us/"
                         class="transform hover:scale-[1.02] transition duration-300 inline-flex items-center justify-center px-5 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base font-medium rounded-lg text-white bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:from-[#5bc0d4] hover:to-[#1a4a52] shadow-lg">
                         Get started now
                         <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2 w-4 sm:w-5">
@@ -214,7 +214,7 @@ get_header();
                         Join the growing community of retailers using DDS SaaS to digitize daily operations, reduce
                         costs, and unlock sales growth across East Africa.
                     </p>
-                    <a href="#"
+                    <a href="http://159.203.159.79/contact-us/"
                         class="transform hover:scale-[1.01] transition duration-300 inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] shadow-lg">
                         Discover More <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
                     </a>
