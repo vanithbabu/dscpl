@@ -18,7 +18,7 @@ get_header();
 
    
     <section class="relative bg-gradient-to-br from-[#4497B4] to-[#71C5E1] overflow-hidden">
-        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/cuboid.png" alt="background image"
+        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/cuboid.svg" alt="background image"
             class="absolute bottom-0 left-[20%] w-[800px] hidden md:block" />
 
         <div class="max-w-7xl mx-auto px-4 py-16">
@@ -122,7 +122,7 @@ get_header();
                 <div
                     class="bg-white rounded-xl p-6 sm:p-8 shadow-md transition-shadow duration-300 flex flex-col items-center text-center">
                     <div class="mb-6">
-                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/supply-chain-representation.png" alt="Access Control">
+                        <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/instantsetup.png" alt="Access Control">
                     </div>
                     <h3 class="text-lg sm:text-xl font-bold mb-3">
                         Instant Setup

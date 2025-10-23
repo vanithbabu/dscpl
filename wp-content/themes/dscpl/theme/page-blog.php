@@ -439,7 +439,7 @@ get_header();
                         </div>
                     </div>
 
-                    <div class="text-white">
+                    <div>
                         <p class="text-sm sm:text-base lg:text-lg mb-6 text-teal-50 leading-relaxed">
                             Get the latest product updates, company news, and special offers delivered right to your
                             inbox.
