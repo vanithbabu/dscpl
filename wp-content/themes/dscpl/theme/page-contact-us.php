@@ -253,7 +253,7 @@ get_header();
              focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
                 </div>
 
-                <button class="flex items-center gap-2 text-white px-6 py-2 rounded-lg shadow 
+                <button class="getStartButton flex items-center gap-2 text-white px-6 py-2 rounded-lg shadow 
     bg-gradient-to-r from-[#6CD3E7] to-[#235A66] hover:opacity-90 transition">
                     Get started
                      <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="w-4 h-4">

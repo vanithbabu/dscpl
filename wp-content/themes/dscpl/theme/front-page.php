@@ -45,7 +45,7 @@ get_header();
 
             <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <a href="#"
-                class="transform hover:scale-[1.01] transition duration-300  inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
+                class="freeButton transform  transition duration-300  inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] transition duration-300 shadow-lg">
                 Start Free Trial <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
               </a>
               <a href="http://159.203.159.79/contact-us/"
@@ -163,7 +163,7 @@ get_header();
                 entire supply chain, sales, and payments for seamless enterprise performance.
               </p>
               <a href="http://159.203.159.79/dds-enterprise-cloud-platform/"
-                class="transform hover:scale-[1.01] transition duration-300 inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
+                class=" freeButton transform hover:scale-[1.01] transition duration-300 inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
                 Contact Sales <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2 ">
               </a>
             </div>
@@ -187,7 +187,7 @@ get_header();
                 visibility.
               </p>
               <a href="http://159.203.159.79/dds-retail/"
-                class="transform hover:scale-[1.01] transition duration-300 inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
+                class="freeButton transform hover:scale-[1.01] transition duration-300 inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
                 Learn more <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
               </a>
             </div>
@@ -223,33 +223,82 @@ get_header();
         </h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 text-center">
-          <div>
-            <p class="text-2xl sm:text-3xl md:text-4xl font-bold ">
-              <span class="text-accent-orange">0.0</span><span class=" text-[#2E3A65]">M</span>
-            </p>
-            <p class="mt-2 text-[#2E3A65] font-bold">Orders Processed</p>
+       <div class="stat-item">
+        <div class="number-wrapper">
+          <div class="digit-container">
+            <div class="digit-roll digit-5 text-orange">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+            </div>
           </div>
+          <span class="dot text-orange">.</span>
+          <div class="digit-container">
+            <div class="digit-roll digit-0 text-orange">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+            </div>
+          </div>
+          <span class="text-blue">M</span>
+        </div>
+        <p class="label">Orders Processed</p>
+      </div>
 
-          <div>
-            <p class="text-2xl sm:text-3xl md:text-4xl font-bold ">
-              <span class="text-accent-orange">0.1</span><span class=" text-[#2E3A65]">M</span>
-            </p>
-            <p class="mt-2 text-[#2E3A65] font-bold">Deliveries Optimized</p>
+      <div class="stat-item">
+        <div class="number-wrapper">
+          <div class="digit-container">
+            <div class="digit-roll digit-1 text-orange">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+            </div>
           </div>
+          <span class="dot text-orange">.</span>
+          <div class="digit-container">
+            <div class="digit-roll digit-5 text-orange">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+            </div>
+          </div>
+          <span class="text-blue">M</span>
+        </div>
+        <p class="label">Deliveries Optimized</p>
+      </div>
 
-          <div>
-            <p class="text-2xl sm:text-3xl md:text-4xl font-bold">
-              <span class="text-accent-orange">$001</span><span class=" text-[#2E3A65]">+</span>
-            </p>
-            <p class="mt-2 text-[#2E3A65] font-bold">Transactions Handled</p>
+      <div class="stat-item">
+        <div class="number-wrapper">
+          <span class="static-text">$</span>
+          <div class="digit-container">
+            <div class="digit-roll digit-5 text-orange">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+            </div>
           </div>
+          <div class="digit-container">
+            <div class="digit-roll digit-0 text-orange">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+            </div>
+          </div>
+          <div class="digit-container">
+            <div class="digit-roll digit-0 text-orange">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+            </div>
+          </div>
+          <span class="text-blue">+</span>
+        </div>
+        <p class="label">Transactions Handled</p>
+      </div>
 
-          <div>
-            <p class="text-2xl sm:text-3xl md:text-4xl font-bold ">
-              <span class="text-accent-orange">0.1</span><span class=" text-[#2E3A65]">%</span>
-            </p>
-            <p class="mt-2 text-[#2E3A65] font-bold">Average Cost Reduction</p>
+      <div class="stat-item">
+        <div class="number-wrapper">
+          <div class="digit-container">
+            <div class="digit-roll digit-9 text-orange">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+            </div>
           </div>
+          <span class="dot text-orange">.</span>
+          <div class="digit-container">
+            <div class="digit-roll digit-5 text-orange">
+              <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+            </div>
+          </div>
+          <span class="text-blue">%</span>
+        </div>
+        <p class="label">Average Cost Reduction</p>
+      </div>
         </div>
       </div>
     </section>
@@ -470,6 +519,68 @@ get_header();
         </div>
       </div>
     </section>
+    <section class="bg-[#C6FFF073] py-10">
+  <div class="text-center mb-10">
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">
+      What our <span class="text-[#FF512F]">Customers</span> say
+    </h2>
+    <p class="text-base sm:text-lg font-semibold leading-relaxed text-gray-700">
+      Hear how DDS transforms FMCG operations for retailers and enterprises alike.
+    </p>
+  </div>
+<div class="overflow-hidden relative py-12">
+  <div class="gap-12 animate-slide">
+    <div class=" w-md bg-white shadow-lg rounded-2xl p-6 flex flex-col justify-between">
+      <div class="flex items-center gap-3 mb-3">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/girlCircle.png" alt="Female delivery person with boxes"/>
+      <div>
+        <h3 class="text-lg font-bold">Gregory Jones</h3>
+        <p class="text-sm text-[#FF512F]">@twitter_nametag</p>
+</div>
+</div>
+        <p class="text-gray-600 text-sm leading-relaxed">
+          This software works outstandingly well. 
+It grudgingly improves my
+skills by a lot.
+        </p>
+        <p class="text-xs text-[#FF512F] mt-4 font-medium">8:21 PM / Dec 21, 2022</p>
+    </div>
+
+    <div class="w-md bg-white shadow-lg rounded-2xl p-6 flex flex-col justify-between">
+      <div class="flex items-center gap-3 mb-3">
+       <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/boycircle.png" alt="Female delivery person with boxes"/>
+        <div>
+          <h3 class="text-lg font-bold">Maria Gutierrez</h3>
+          <p class="text-sm text-[#FF512F]">@twitter_nametag</p>
+        </div>
+      </div>
+      <p class="text-gray-600 text-sm leading-relaxed">
+        It really saves me time and effort. @YourCompany is exactly what our
+business has been lacking. It's all good. Definitely worth the
+investment. I would also like to say thank you to all your staff!
+      </p>
+      <p class="text-xs text-[#FF512F] mt-4 font-medium">8:21 PM / Dec 21, 2022</p>
+    </div>
+
+    <div class=" w-md bg-white shadow-lg rounded-2xl p-6 flex flex-col justify-between">
+      <div class="flex items-center gap-3 mb-3">
+               <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/girlCircle.png" alt="Female delivery person with boxes"/>
+        <div>
+          <h3 class="text-lg font-bold">Sylvia Taylor</h3>
+          <p class="text-sm text-[#FF512F]">@twitter_nametag</p>
+        </div>
+      </div>
+      <p class="text-gray-600 text-sm leading-relaxed">
+        It really saves me time and effort. @YourCompany is exactly what our
+business has been lacking.
+ It's all good. Definitely worth the
+investment. I would also like to say thank you to all your staff!
+      </p>
+      <p class="text-xs text-[#FF512F] mt-4 font-medium">8:21 PM / Dec 21, 2022</p>
+    </div>
+</div>
+  </div>
+</section>
     <section class="py-8 bg-white relative overflow-hidden">
       <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-center text-2xl sm:text-3xl md:text-4xl font-bold text-[#191B44] mb-2">
@@ -543,12 +654,11 @@ get_header();
       </div>
       <div class="flex justify-center mt-8">
         <a href="#"
-          class="transform hover:scale-[1.01] transition duration-300 align-items-center inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
+          class="freeButton transform hover:scale-[1.01] transition duration-300 align-items-center inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
           Explore now<img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1">
         </a>
       </div>
     </section>
-
     <section class="py-4">
       <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-primary-navy mb-8">
