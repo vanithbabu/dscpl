@@ -144,6 +144,12 @@ body {
   border-radius: 50%;
   opacity: 0.15;
 }
+.freeButton:hover{
+ width:190px
+}
+.getStartButton:hover{
+ width:160px
+}
 
 @media (max-width: 1094px) {
   #mobile-menu.menu-hidden {
@@ -187,3 +193,129 @@ body {
     transform: translateY(-50%);
   }
 }
+    .stat-item {
+      padding: 20px;
+    }
+
+    .number-wrapper {
+      font-size: clamp(2rem, 5vw, 2.5rem);
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      gap: 2px;
+    }
+
+    .digit-container {
+      height: 1.2em;
+      overflow: hidden;
+      display: inline-block;
+      position: relative;
+      min-width: 0.6em;
+      text-align: center;
+    }
+
+    .digit-roll {
+      display: flex;
+      flex-direction: column;
+      animation-duration: 8s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+
+    .digit-roll span {
+      display: block;
+      height: 1.2em;
+      line-height: 1.2;
+    }
+
+    .text-orange {
+      color: #ff6b35;
+    }
+
+    .text-blue {
+      color: #2E3A65;
+    }
+
+    .label {
+      margin-top: 8px;
+      color: #2E3A65;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .static-text {
+      color: #ff6b35;
+    }
+
+    .dot {
+      color: #ff6b35;
+    }
+
+    .stat-item:nth-child(1) .digit-roll {
+      animation-delay: 0s;
+    }
+
+    .stat-item:nth-child(2) .digit-roll {
+      animation-delay: 0.3s;
+    }
+
+    .stat-item:nth-child(3) .digit-roll {
+      animation-delay: 0.6s;
+    }
+
+    .stat-item:nth-child(4) .digit-roll {
+      animation-delay: 0.9s;
+    }
+
+    .digit-0 { animation-name: roll0; }
+    .digit-1 { animation-name: roll1; }
+    .digit-2 { animation-name: roll2; }
+    .digit-3 { animation-name: roll3; }
+    .digit-4 { animation-name: roll4; }
+    .digit-5 { animation-name: roll5; }
+    .digit-6 { animation-name: roll6; }
+    .digit-7 { animation-name: roll7; }
+    .digit-8 { animation-name: roll8; }
+    .digit-9 { animation-name: roll9; }
+
+    @keyframes roll0 {
+      0%, 80%, 100% { transform: translateY(0); }
+      15%, 65% { transform: translateY(0); }
+    }
+
+    @keyframes roll1 {
+      0%, 80%, 100% { transform: translateY(0); }
+      15%, 65% { transform: translateY(calc(-1 * 1.2em)); }
+    }
+    @keyframes roll2 {
+      0%, 80%, 100% { transform: translateY(0); }
+      15%, 65% { transform: translateY(calc(-2 * 1.2em)); }
+    }
+    @keyframes roll3 {
+      0%, 80%, 100% { transform: translateY(0); }
+      15%, 65% { transform: translateY(calc(-3 * 1.2em)); }
+    }
+    @keyframes roll4 {
+      0%, 80%, 100% { transform: translateY(0); }
+      15%, 65% { transform: translateY(calc(-4 * 1.2em)); }
+    }
+    @keyframes roll5 {
+      0%, 80%, 100% { transform: translateY(0); }
+      15%, 65% { transform: translateY(calc(-5 * 1.2em)); }
+    }
+    @keyframes roll6 {
+      0%, 80%, 100% { transform: translateY(0); }
+      15%, 65% { transform: translateY(calc(-6 * 1.2em)); }
+    }
+    @keyframes roll7 {
+      0%, 80%, 100% { transform: translateY(0); }
+      15%, 65% { transform: translateY(calc(-7 * 1.2em)); }
+    }
+    @keyframes roll8 {
+      0%, 80%, 100% { transform: translateY(0); }
+      15%, 65% { transform: translateY(calc(-8 * 1.2em)); }
+    }
+    @keyframes roll9 {
+      0%, 80%, 100% { transform: translateY(0); }
+      15%, 65% { transform: translateY(calc(-9 * 1.2em)); }
+    }

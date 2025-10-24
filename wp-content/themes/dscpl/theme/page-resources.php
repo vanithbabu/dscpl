@@ -47,7 +47,7 @@ get_header();
 
                         <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                             <a href="#"
-                                class="transform hover:scale-[1.01] transition duration-300  inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
+                                class="freeButton transform hover:scale-[1.01] transition duration-300  inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg text-white  bg-gradient-to-br from-[#6CD3E7] to-[#235A66] hover:bg-[#1a5b5d] transition duration-300 shadow-lg">
                                 Contact Sales <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" class="mt-1 ml-2">
                             </a>
                         </div>
@@ -181,7 +181,7 @@ get_header();
                                             potential revenue lost!
                                         </p>
                                         <button
-                                            class="bg-[#448F9D]  text-white px-6 py-2.5 rounded-full text-sm font-semibold transition duration-300 shadow-lg">
+                                            class="freeButton bg-[#448F9D]  text-white px-6 py-2.5 rounded-full text-sm font-semibold transition duration-300 shadow-lg">
                                             GET FREE DEMO
                                         </button>
                                     </div>
