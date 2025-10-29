@@ -395,7 +395,7 @@ get_header();
                     <!-- Buttons -->
                     <div class="relative mt-8 flex flex-col sm:flex-row gap-4">
                         <a href="#" style="background: linear-gradient(84.35deg, #6CD3E7 -2.47%, #235A66 100%);"
-                            class="px-6 py-3 text-white font-medium rounded-md text-center transition duration-300 ease-in-out hover:brightness-90 text-base md:text-lg inline-flex items-center gap-2">
+                            class="freeButton px-6 py-3 text-white font-medium rounded-md text-center transition duration-300 ease-in-out hover:brightness-90 text-base md:text-lg inline-flex items-center gap-2">
                             SIGN UP NOW
                             <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow" />
                         </a>

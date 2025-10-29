@@ -267,7 +267,7 @@ get_header();
                                             potential revenue lost!
                                         </p>
                                         <button
-                                            class="bg-[#448F9D]  text-white px-6 py-2.5 rounded-full text-sm font-semibold transition duration-300 shadow-lg">
+                                            class="freeButton bg-[#448F9D]  text-white px-6 py-2.5 rounded-full text-sm font-semibold transition duration-300 shadow-lg">
                                             GET FREE DEMO
                                         </button>
                                     </div>

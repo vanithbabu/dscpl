@@ -29,7 +29,7 @@ get_header();
                     </p>
                     <div class="mt-8">
                         <a href="#jobs"
-                            class="inline-flex items-center gap-2 rounded-md px-5 py-3 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-black/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 hover:opacity-95 [background:linear-gradient(84.35deg,_#6CD3E7_-2.47%,_#235A66_100%)]">
+                            class="freeButton inline-flex items-center gap-2 rounded-md px-5 py-3 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-black/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 hover:opacity-95 [background:linear-gradient(84.35deg,_#6CD3E7_-2.47%,_#235A66_100%)]">
                             View Job Openings
                             <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="" aria-hidden="true"
                                 class="h-4 w-4 object-contain" loading="lazy" />
@@ -230,7 +230,7 @@ get_header();
                     their future colleagues.
                 </p>
                 <button
-                    class="inline-flex items-center gap-2 bg-gradient-to-r from-[#25A4B5] to-[#006C90] text-white font-medium px-5 py-3 rounded-md shadow hover:opacity-90 transition">
+                    class=" freeButton inline-flex items-center gap-2 bg-gradient-to-r from-[#25A4B5] to-[#006C90] text-white font-medium px-5 py-3 rounded-md shadow hover:opacity-90 transition">
                     Watch the video
                     <img src="<?php echo site_url(); ?>/wp-content/uploads/2025/10/right-arrow.svg" alt="arrow icon" />
                 </button>
@@ -779,7 +779,7 @@ get_header();
 
                                 <!-- Separate button outside the input box -->
                                 <label for="cv"
-                                    class="inline-flex cursor-pointer items-center justify-center rounded-lg px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition focus:outline-none focus:ring-2 focus:ring-teal-300 bg-[linear-gradient(84.35deg,_#6CD3E7_-2.47%,_#3A9DB2_54.68%,_#235A66_100%)]">
+                                    class="freeButton inline-flex cursor-pointer items-center justify-center rounded-lg px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition focus:outline-none focus:ring-2 focus:ring-teal-300 bg-[linear-gradient(84.35deg,_#6CD3E7_-2.47%,_#3A9DB2_54.68%,_#235A66_100%)]">
                                     Select File
                                 </label>
                             </div>
